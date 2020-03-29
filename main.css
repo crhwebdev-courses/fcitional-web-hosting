@@ -10,7 +10,35 @@ body {
 .main-header {
   background: #2ddf5c;
   width: 100%;
-  padding: 10px;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+}
+
+.main-header > div > a {
+  text-decoration: none;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 55px);
+  text-align: right;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item > a {
+  text-decoration: none;
 }
 
 #product-overview {
