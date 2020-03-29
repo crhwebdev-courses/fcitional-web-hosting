@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+.main-header {
+  background: #2ddf5c;
+  width: 100%;
+  padding: 10px;
+}
+
 #product-overview {
   background: #ff1b68;
   width: 100%;
