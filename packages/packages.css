@@ -1,3 +1,48 @@
-body {
-  background: red;
+.package {
+  border: 4px solid #0e4f1f;
+  margin: 15px 0;
+  padding: 50px 50px;
+}
+
+.package:hover {
+  border: 4px solid red;
+}
+
+.package--text {
+  text-decoration: none;
+}
+
+.package__title {
+  color: #0e4f1f;
+}
+
+.package__subtitle {
+  color: #858585;
+}
+
+.package__description {
+  display: inline-block;
+  background-color: white;
+  color: #0e4f1f;
+  font-size: 20px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid #0e4f1f;
+}
+
+.premium__title {
+  color: white;
+}
+
+#plus-plan {
+  background-color: #d5ffdc;
+}
+
+#free-plan {
+  background-color: #e3fae7;
+}
+
+#premium-plan {
+  background-color: #0e4f1f;
 }
