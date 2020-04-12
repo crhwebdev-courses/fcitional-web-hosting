@@ -12,6 +12,14 @@ body {
   background: #2ddf5c;
   width: 100%;
   padding: 8px 16px;
+  /* we need to position it with top and left or else it will 
+  position itself according to the location of the top most visible element
+  which would be the main or #product-overview element.
+  This means that the margin will be pushed down by the top-margin
+  applied to those elements even though it is not a child of those elements?
+  */
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 

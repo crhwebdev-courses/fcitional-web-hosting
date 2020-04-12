@@ -3,16 +3,21 @@
   width: 100%;
   height: 528px;
   padding: 10px;
-}
-
-#product-overview h1 {
-  color: white;
-  font-family: "Anton", sans-serif;
+  margin-top: 43px;
+  position: relative;
 }
 
 .section-title {
   color: #2ddf5c;
   text-align: center;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
 }
 
 .plan__list {
@@ -23,7 +28,7 @@
 
 .plan {
   background: #d5ffdc;
-  /* text-align: center; */
+  text-align: center;
   padding: 16px;
   margin: 8px;
   display: inline-block;
@@ -31,10 +36,18 @@
   vertical-align: middle;
 }
 
-.plan__features {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.plan--highlighted {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background: white;
+  color: #19b84c;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 .plan__title {
@@ -45,16 +58,6 @@
   color: #858585;
 }
 
-.plan__feature {
-  margin: 8px 0;
-}
-
-.plan--highlighted {
-  background: #19b84c;
-  color: white;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.5);
-}
-
 .plan--highlighted .plan__title {
   color: white;
 }
@@ -63,13 +66,14 @@
   color: #0e4f1f;
 }
 
-.plan__annotation {
-  background: white;
-  color: #19b84c;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__feature {
+  margin: 8px 0;
 }
 
 #key-features {
@@ -78,7 +82,7 @@
   padding: 16px;
 }
 
-#key-features > .section-title {
+#key-features .section-title {
   color: white;
   margin: 32px;
 }
@@ -100,14 +104,18 @@
   background: #ffcede;
   width: 128px;
   height: 128px;
-  border: 2px solid #434343;
+  border: 2px solid #424242;
   border-radius: 50%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .key-feature__description {
-  color: white;
-  font-weight: bold;
   text-align: center;
+  font-weight: bold;
+  color: white;
   font-size: 20px;
 }
+
+/* h1 {
+  font-family: sans-serif;
+} */
