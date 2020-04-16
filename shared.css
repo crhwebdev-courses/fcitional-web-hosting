@@ -22,7 +22,7 @@ body {
   position: fixed;
   background: #2ddf5c;
   width: 100%;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   /* we need to position it with top and left or else it will 
   position itself according to the location of the top most visible element
   which would be the main or #product-overview element.
@@ -67,14 +67,14 @@ body {
 
 .main-nav__item {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .main-nav__item a {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  padding: 3px 0;
+  padding: 0.1875rem 0;
 }
 
 .main-nav__item a:hover,
@@ -86,7 +86,7 @@ body {
 .main-nav__item--cta a {
   color: white;
   background: #ff1b68;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 8px;
 }
 
@@ -99,8 +99,8 @@ body {
 
 .main-footer {
   background: black;
-  padding: 32px;
-  margin-top: 48px;
+  padding: 2rem;
+  margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -112,7 +112,7 @@ body {
 
 .main-footer__link {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .main-footer__link > a {
@@ -131,7 +131,7 @@ body {
   font: inherit;
   border: 1.5px solid #0e4f1f;
   outline: none;
-  padding: 8px;
+  padding: 0.5rem;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
