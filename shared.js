@@ -1,18 +1,18 @@
-const buttons = document.querySelectorAll(".button");
-const backdrop = document.querySelector(".backdrop");
-const modal = document.querySelector(".modal");
+var buttons = document.querySelectorAll(".plan button");
+var backdrop = document.querySelector(".backdrop");
+var modal = document.querySelector(".modal");
 
 function toggleModal() {
   modal.classList.toggle("on");
   backdrop.classList.toggle("on");
 }
 
-buttons.forEach((el) => {
+buttons.forEach(function (el) {
   el.addEventListener("click", toggleModal);
 });
 
-const modalAction = document.querySelectorAll(".modal__action");
+var modalAction = document.querySelectorAll(".modal__action");
 
-modalAction.forEach((el) => {
+modalAction.forEach(function (el) {
   el.addEventListener("click", toggleModal);
 });
