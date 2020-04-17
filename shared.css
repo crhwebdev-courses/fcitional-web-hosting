@@ -18,6 +18,10 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.backdrop.on {
+  display: block;
+}
+
 .main-header {
   position: fixed;
   background: #2ddf5c;
