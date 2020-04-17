@@ -50,6 +50,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   height: 40px;
+  vertical-align: middle;
 }
 
 .main-header__brand > img {
@@ -58,7 +59,7 @@ body {
 
 .main-nav {
   display: inline-block;
-  width: calc(100% - 75px);
+  width: calc(100% - 122px);
   text-align: right;
   vertical-align: middle;
 }
