@@ -117,6 +117,10 @@ body {
   height: 100vh;
 }
 
+.mobile-nav.expanded {
+  display: block;
+}
+
 .mobile-nav__items {
   width: 90%;
   height: 100%;
