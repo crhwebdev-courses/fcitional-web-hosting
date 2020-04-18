@@ -8,7 +8,10 @@ function openModal() {
 }
 
 function closeModal() {
-  modal.classList.remove("on");
+  if (modal) {
+    modal.classList.remove("on");
+  }
+
   backdrop.classList.remove("on");
 }
 
