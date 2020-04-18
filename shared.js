@@ -31,5 +31,6 @@ backdrop.addEventListener("click", function () {
 });
 
 toggleButton.addEventListener("click", function () {
-  mobileNav.classList.toggle("expanded");
+  mobileNav.classList.add("expanded");
+  backdrop.classList.add("on");
 });
