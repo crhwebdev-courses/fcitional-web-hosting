@@ -194,13 +194,15 @@
   }
   .plan__list {
     width: 100%;
-    margin: auto;
+    text-align: center;
   }
 
   .plan {
     display: inline-block;
     width: 30%;
-    margin: 0.5rem;
+    min-width: 13rem;
+    max-width: 25rem;
+    margin: 0.25rem;
     vertical-align: middle;
   }
 
