@@ -1,6 +1,5 @@
 .testimonial {
   font-size: 1.25rem;
-  margin: 3rem 0;
 }
 
 .testimonial__list {
@@ -67,6 +66,11 @@
 }
 
 @media (min-width: 40rem) {
+  .testimonial {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+
   .testimonial__image-container {
     display: inline-block;
     width: 65%;
