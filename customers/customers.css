@@ -71,8 +71,6 @@
     display: inline-block;
     width: 65%;
     vertical-align: middle;
-    /* max-width: 580px;      
-    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3); */
   }
 
   .testimonial__info {
@@ -80,8 +78,5 @@
     width: 30%;
     vertical-align: middle;
     text-align: right;
-    /* 
-    padding: 0.875rem;    
-    width: 30%; */
   }
 }
