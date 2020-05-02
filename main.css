@@ -181,7 +181,7 @@
 } */
 
 /* Apply styles to any screen with a size of 40rem or greater (would use max-width for 40rem or less) */
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 50vh;
     background-position: 50% 25%;
