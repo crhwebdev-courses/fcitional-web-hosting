@@ -67,6 +67,15 @@ main {
   margin-top: 1rem;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+/* special css pseudo selector :invalid applies style when html detects
+ invalid input - so in case of email or required inputs */
+.signup-form :invalid {
+  border: 1px solid red !important;
+  background: #faacac;
+}
+
 @media (min-width: 40rem) {
   .signup-form {
     margin: auto;
