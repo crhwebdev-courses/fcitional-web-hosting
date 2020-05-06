@@ -68,6 +68,7 @@ main {
   /* font-family: "AnonymousPro", sans-serif; */
   /* font-weight: 700; */
   font: 700 1.2rem "AnonymousPro", sans-serif;
+  /* font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
