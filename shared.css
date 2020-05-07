@@ -33,6 +33,9 @@ main {
 
 .main-header {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background: #2ddf5c;
   width: 100%;
   padding: 0.5rem 1rem;
@@ -47,22 +50,15 @@ main {
   z-index: 1;
 }
 
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .main-header__brand {
   display: none;
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  height: 2.5rem;
-  vertical-align: middle;
 }
 
 .main-header__brand > img {
-  height: 100%;
+  height: 2.5rem;
 }
 
 .main-nav {
@@ -70,13 +66,13 @@ main {
 }
 
 .main-nav__items {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .main-nav__item {
-  display: inline-block;
   margin: 0 1rem;
 }
 
@@ -150,7 +146,6 @@ main {
   cursor: pointer;
   padding-top: 0;
   padding-bottom: 0;
-  vertical-align: middle;
 }
 
 .toggle-button:focus {
@@ -222,7 +217,7 @@ main {
 
 @media (min-width: 40rem) {
   .main-header__brand {
-    display: inline-block;
+    display: block;
   }
 
   .toggle-button {
@@ -230,10 +225,7 @@ main {
   }
 
   .main-nav {
-    display: inline-block;
-    width: calc(100% - 44px);
-    text-align: right;
-    vertical-align: middle;
+    display: block;
   }
 
   .main-footer__link {
