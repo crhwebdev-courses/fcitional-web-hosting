@@ -32,7 +32,6 @@
   text-align: center;
 }
 
-/* assignment => flex container */
 .plan__list {
   display: flex;
   flex-direction: column;
@@ -41,23 +40,21 @@
   text-align: center;
 }
 
-/* assignment => flex container */
 .plan {
   display: flex;
   flex-direction: column;
-  height: 45vh;
+  justify-content: space-between;
+  height: 28rem;
   background: #d5ffdc;
-  /* text-align: center; */
   padding: 1rem;
-  margin: 0.5rem 0;
   width: 100%;
 }
 
-/* assignment => z-index & height */
 .plan--highlighted {
-  height: 50vh;  
+  height: 30rem;  
   background: #19b84c;
   color: white;
+  z-index: 50;
 }
 
 .plan__annotation {
@@ -189,10 +186,6 @@
   border-color: #ff5454;
 }
 
-/* h1 {
-  font-family: sans-serif;
-} */
-
 /* Apply styles to any screen with a size of 40rem or greater (would use max-width for 40rem or less) */
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
@@ -209,20 +202,17 @@
   .plan__list {
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    text-align: center;
+    align-items: center;
+    width: 100%;    
   }
 
-  /* assignment */
   .plan {    
     justify-content: center;
     width: 30%;
     min-width: 13rem;
     max-width: 25rem;
-    margin: 0.25rem;    
   }
 
-  /* assignment */
   .plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
@@ -231,13 +221,10 @@
     flex-direction: row;
     justify-content: center;
   }
-
-  /* assignment */
+  
   .key-feature {    
     width: 30%;
     max-width: 25rem;    
   }
-
-  /* assignment => add .key-feature_list => flex container */
-
+  
 }
